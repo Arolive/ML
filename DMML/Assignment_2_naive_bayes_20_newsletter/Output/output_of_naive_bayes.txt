@@ -1,0 +1,77 @@
+Output of Naive Bayes::::  
+
+Length of the training data is::::  10703
+Length of the test data is::::  563
+
+Micro-average quality numbers::::  Precision::::  0.7184822521419829
+F1 score::::  0.6889671361502347
+Accuracy-score::::  0.4724689165186501
+
+
+Time taken is::::  27.69513
+Time taken is::::  1.886123
+The output is::::  
+                               0                                   1
+0                    [livestock]                         [livestock]
+1    [crude, livestock, carcass]                                  []
+2                         [earn]                              [earn]
+3                     [pet-chem]                               [acq]
+4                          [acq]                               [acq]
+5                [stg, money-fx]           [interest, money-fx, stg]
+6                        [trade]                      [grain, trade]
+7    [livestock, carcass, trade]                    [carcass, trade]
+8                        [trade]                             [trade]
+9                          [acq]                               [acq]
+10               [stg, money-fx]                     [money-fx, stg]
+11                        [heat]                              [heat]
+12                       [crude]                             [trade]
+13                         [acq]                               [acq]
+14                     [nat-gas]                                  []
+15                        [earn]                              [earn]
+16                [grain, wheat]                      [grain, wheat]
+17                        [earn]                              [earn]
+18          [livestock, carcass]         [carcass, grain, livestock]
+19                        [earn]                              [earn]
+20                         [acq]                               [acq]
+21                  [iron-steel]                                  []
+22                       [trade]                   [money-fx, trade]
+23                        [earn]                              [earn]
+24                         [acq]                               [acq]
+25                    [interest]                          [interest]
+26                    [reserves]                          [reserves]
+27                         [acq]                               [acq]
+28                        [earn]                              [earn]
+29                        [earn]                              [earn]
+..                           ...                                 ...
+533                        [gnp]                          [money-fx]
+534     [money-supply, reserves]  [interest, money-fx, money-supply]
+535                        [bop]                   [bop, gnp, trade]
+536                       [ship]                              [ship]
+537           [oilseed, soybean]           [grain, oilseed, soybean]
+538                      [sugar]                      [grain, sugar]
+539                     [copper]                                  []
+540          [oilseed, rapeseed]        [oilseed, rapeseed, soybean]
+541                      [crude]                                  []
+542                        [gnp]                          [bop, gnp]
+543                        [acq]                               [acq]
+544                     [cotton]                            [cotton]
+545               [money-supply]                      [money-supply]
+546                        [acq]                               [acq]
+547                      [trade]                   [money-fx, trade]
+548                 [fuel, ship]                              [ship]
+549                   [money-fx]                          [money-fx]
+550                      [crude]                             [crude]
+551         [money-fx, interest]                          [money-fx]
+552                        [ipi]                               [ipi]
+553                        [gnp]                               [gnp]
+554                 [iron-steel]                                  []
+555         [zinc, lead, copper]                                  []
+556                        [wpi]                          [cpi, wpi]
+557                      [sugar]                      [grain, sugar]
+558                [grain, rice]                      [grain, trade]
+559  [money-fx, reserves, trade]                   [money-fx, trade]
+560                       [zinc]                                  []
+561                    [housing]                           [housing]
+562                    [veg-oil]                           [veg-oil]
+
+[563 rows x 2 columns]
